@@ -1,0 +1,31 @@
+body {
+      font-family: Cambria, 'Segoe UI', sans-serif;
+    }
+    .progress-bar {
+      transition: width 1.5s ease-in-out;
+    }
+    .social-icons i {
+      transition: transform 0.3s;
+    }
+    .social-icons i:hover {
+      transform: scale(1.2);
+    }
+    .card {
+      transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+    }
+    .card:hover {
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2) !important;
+      transform: translateX(-10px) scale(1.02);
+    }
+
+    .text-justify{
+        text-align: justify;
+    }
+
+    /* Small Screen Media */
+    @media screen and (max-width: 600px) {
+        .card:hover {
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2) !important;
+      transform: translateY(-10px) scale(1.02);
+    }
+    }
